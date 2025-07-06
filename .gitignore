@@ -1,0 +1,280 @@
+# ========================================
+# 🌐 Universal .gitignore for Web & Mobile Development
+# Covers: Node.js, React, Vue, Angular, React Native, Flutter, etc.
+# 📦 Package Managers: npm, pnpm, yarn, bun
+# 💻 IDEs: VS Code, JetBrains, Sublime, Vim
+# ========================================
+
+# ===== 📦 DEPENDENCIES & PACKAGE MANAGERS =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package manager lock files (keep one, ignore others based on your preference)
+# Uncomment the ones you want to ignore:
+# package-lock.json  # npm
+# yarn.lock          # yarn
+pnpm-lock.yaml
+# bun.lockb          # bun
+
+# Package manager cache
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.pnpm-store/
+
+# ===== 🔐 ENVIRONMENT VARIABLES =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+.env.*.local
+
+# ===== 🏗️ BUILD OUTPUTS =====
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+.docusaurus/
+.cache/
+public/build/
+target/
+
+# ===== 🧪 TESTING =====
+coverage/
+*.lcov
+.nyc_output/
+.jest/
+test-results/
+playwright-report/
+test-results.xml
+
+# ===== 📋 LOGS =====
+*.log
+logs/
+*.log.*
+lerna-debug.log*
+
+# ===== 🗂️ TEMPORARY FILES =====
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# ===== 💻 VS CODE =====
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# ===== 🧠 JETBRAINS IDEs =====
+# IntelliJ IDEA, WebStorm, PyCharm, etc.
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# ===== ✏️ OTHER EDITORS =====
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===== 🍎 MACOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ===== 🪟 WINDOWS =====
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ===== 🐧 LINUX =====
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== 🌐 WEB FRAMEWORKS =====
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+.output/
+
+# Gatsby
+.cache/
+public/
+
+# SvelteKit
+.svelte-kit/
+
+# Angular
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
+
+# Vue.js
+dist/
+
+# ===== 📱 MOBILE DEVELOPMENT =====
+# React Native
+*.hbc
+*.jsbundle
+*.bundle
+ios/build/
+android/build/
+android/app/build/
+
+# Flutter
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/pubspec.lock
+
+# iOS
+*.xcworkspace
+*.xcuserstate
+*.xccheckout
+Pods/
+DerivedData/
+.build/
+
+# Android
+*.keystore
+*.jks
+local.properties
+android/app/release/
+android/app/debug/
+android/gradle/
+
+# ===== 🗃️ DATABASES =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== ⚡ SERVERLESS =====
+.serverless/
+serverless.yml.backup
+
+# ===== 🐳 DOCKER =====
+# Docker build context
+Dockerfile.prod
+Dockerfile.dev
+Dockerfile.test
+docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.prod.yml
+docker-compose.dev.yml
+
+# Docker volumes and data
+docker-data/
+volumes/
+
+# Docker secrets
+docker-secrets/
+
+# ===== 🏗️ TERRAFORM =====
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# ===== 🔧 MISC TOOLS =====
+# Parcel
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettiercache
+
+# Stylelint
+.stylelintcache
+
+# Storybook
+storybook-static/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Playwright
+test-results/
+playwright-report/
+
+# ===== 🎨 CUSTOM PROJECT FILES =====
+# Add your project-specific ignores here
+# uploads/
+# private/
+# secrets/
+
+# ===== 🔒 COMMON SENSITIVE FILES =====
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+config.json
+secrets.json
+
+# ===== 🎯 END OF GITIGNORE =====
