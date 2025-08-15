@@ -1,6 +1,5 @@
 // 📦 Install everything with:
 // pnpm add -D eslint @eslint/js @eslint/eslintrc @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-prettier eslint-config-prettier prettier @trivago/prettier-plugin-sort-imports prettier-plugin-tailwindcss eslint-plugin-unused-imports eslint-plugin-check-file typescript
-
 import { FlatCompat } from "@eslint/eslintrc";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
