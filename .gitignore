@@ -157,7 +157,6 @@ out/
 
 # Gatsby
 .cache/
-public/
 
 # SvelteKit
 .svelte-kit/
